@@ -28,13 +28,6 @@ var numberCharacter = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 var specialCharacter = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~"];
 
-const randomFunc = {
-  lower: getRandomLower,
-  upper: getRandomUpper,
-  number: getRandomNumber,
-  symbol: getRandomSpecial,
-};
-
 var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword); 
 
@@ -44,24 +37,18 @@ function writePassword () {
 
 // Prompts user to enter how many characters in the password and stores value
 var passLength = findLength ();
-// debugger;
-console.log(passLength); 
 
 // User is asked to confirm use of uppercase letters
 var capCase = getRandomUpper();
-console.log(capCase);
 
 // User is asked to confirm use of lowercase letters
 var lowCase = getRandomLower ();
-console.log(lowCase);
 
 // User is asked to confirm use of numbers
 var numChar = getRandomNumber ();
-console.log(numChar);
 
 // User is asked to confirm use of special characters
 var specChar = getRandomSpecial ();
-console.log(specChar);
 
 // Password is generated using characters specified by user
 var password = generatePassword (passLength, capCase, lowCase, numChar, specChar);
@@ -129,16 +116,10 @@ function getRandomSpecial () {
 function generatePassword (passlength, upper, lower, number, special) {
   //if the variables associated with the parameters are true, add those arrays to the function. if not, skip
   //concat the selected arrays, put a randomizer function in a loop for the length in findLegth
-  // debugger;
   var generatedPassword = upper.concat(lower, number, special);
-  // debugger;
-  console.log(generatedPassword);
-
-
   var string = '';
   for (let index = 0; index < passlength; index++) {
     string += (generatedPassword[Math.floor(Math.random() * generatedPassword.length)]);
-    // debugger;
   }
   return string;
 }
