@@ -47,4 +47,8 @@ Based on the problem we were given to solve, the class put together the followin
 https://www.youtube.com/watch?v=xXwSJGYqeIQ&ab_channel=SteveGriffith-Prof3ssorSt3v3
 (YouTube video about alert, confirm, and prompt dialogues from channel Steve Griffith)
 
+https://www.youtube.com/watch?v=duNmhKgtcsI&ab_channel=TraversyMedia
+
+http://www.net-comber.com/charset.html
+
 Base HTML and CSS provided by Columbia University Full-Stack Flex Bootcamp.
