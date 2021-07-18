@@ -48,7 +48,6 @@ https://www.youtube.com/watch?v=xXwSJGYqeIQ&ab_channel=SteveGriffith-Prof3ssorSt
 (YouTube video about alert, confirm, and prompt dialogues from channel Steve Griffith)
 
 https://www.youtube.com/watch?v=duNmhKgtcsI&ab_channel=TraversyMedia
-
-http://www.net-comber.com/charset.html
+(YouTube video with a detailed explanation of the Math.random functions)
 
 Base HTML and CSS provided by Columbia University Full-Stack Flex Bootcamp.
