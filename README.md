@@ -52,3 +52,10 @@ https://www.youtube.com/watch?v=duNmhKgtcsI&ab_channel=TraversyMedia
 (YouTube video with a detailed explanation of the Math.random functions)
 
 Base HTML and CSS provided by Columbia University Full-Stack Flex Bootcamp.
+
+## Screenshot Updates
+
+![alt text](screenshots/masterFunction.png "Master function, containing all secondary functions")
+![alt text](screenshots/secondaryFunc1.png "Secondary functions, part 1")
+![alt text](screenshots/secondaryFun2.png "Secondary functions, part 2")
+![alt text](screenshots/secondaryFunc3.png "Secondary functions, part 3")
